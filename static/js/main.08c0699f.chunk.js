@@ -1,0 +1,2 @@
+!function(e,o){"object"===typeof exports&&"object"===typeof module?module.exports=o():"function"===typeof define&&define.amd?define([],o):"object"===typeof exports?exports.MyLibrary=o():e.MyLibrary=o()}(this,(function(){return(this.webpackJsonpappexport=this.webpackJsonpappexport||[]).push([[0],[function(e,o,t){"use strict";function n(e){console.log("hello ".concat(e))}t.r(o),t.d(o,"hello",(function(){return n}))}],[[0,1]]])}));
+//# sourceMappingURL=main.08c0699f.chunk.js.map
