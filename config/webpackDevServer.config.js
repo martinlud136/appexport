@@ -92,6 +92,11 @@ module.exports = function (proxy, allowedHost) {
     },
     https: getHttpsConfig(),
     host,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'X-Requested-With,content-type,Authorization'
+    },  
     overlay: false,
     historyApiFallback: {
       // Paths with dots should still use the history fallback.
